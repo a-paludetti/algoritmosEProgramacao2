@@ -29,8 +29,11 @@ public class Exercicio5 {
         return listaPreenchida;
     }
     
+    public static void listagem(){
+        System.out.println("");
+    }
     
-
+    
     public static void main(String[] args) {
         String[] listaNomes = new String[4];
         

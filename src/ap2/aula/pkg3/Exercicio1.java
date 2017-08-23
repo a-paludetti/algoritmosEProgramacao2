@@ -17,7 +17,7 @@ public class Exercicio1 {
      * @param args the command line arguments
      */
     public static int[][] preencherMatriz(int[][] matriz) {
-        int[][] matrizPreenchida = new int[matriz.length][matriz.length];
+        int[][] matrizPreenchida = new int[matriz.length][matriz[0].length];
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
                 matrizPreenchida[i][j] = (i + j);
@@ -28,7 +28,7 @@ public class Exercicio1 {
     }
 
     public static int[][] somaMatriz(int[][] matriz1, int[][] matriz2) {
-        int[][] somaMatriz = new int[matriz1.length][matriz1.length];
+        int[][] somaMatriz = new int[matriz1.length][matriz1[0].length];
 
         for (int i = 0; i < somaMatriz.length; i++) {
             for (int j = 0; j < somaMatriz[i].length; j++) {
