@@ -33,7 +33,9 @@ public class Exercicio5 {
         System.out.println("");
     }
     
-    
+    public static int menu(){
+        String 
+    }
     public static void main(String[] args) {
         String[] listaNomes = new String[4];
         
